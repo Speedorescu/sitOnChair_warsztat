@@ -318,3 +318,187 @@ body {
     cursor: pointer;
 }
 
+/*footer*/
+
+.main-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-footer .col-1-2:nth-of-type(1) {
+}
+
+.main-footer .col-1-2:nth-of-type(2) {
+    text-align: right;
+}
+
+.main-footer .copyright {
+    font-size: 16px;
+    color: #9B9B9B;
+    line-height:36px;
+}
+
+.main-footer .social-icons {
+    display: inline-block;
+}
+
+.main-footer .footer-logo {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9B9B9B;
+    margin-left: 70px;
+    vertical-align: top;
+    line-height: 35px;
+}
+
+/* social icons */
+.social-icons {
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li .social {
+    width: 35px;
+    height: 35px;
+    text-indent: -999px;
+    overflow: hidden;
+    text-align: left;
+    display: inline-block;
+}
+
+.social-icons .social-flickr {
+    background: url(../images/flickr.png) no-repeat;
+}
+
+.social-icons .social-vimeo {
+    background: url(../images/vimeo.png) no-repeat;
+}
+
+.social-icons .social-pinterest {
+    background: url(../images/pinterest.png) no-repeat;
+}
+
+.social-icons .social-twitter {
+    background: url(../images/twitter.png) no-repeat;
+}
+
+/* main price list */
+
+.main-price-list {
+    background: #F1F1F1;
+    padding:65px 0;
+}
+.price-list-box {
+    background: #F9F9F9;
+    border: 2px solid #D4D4D4;
+    height: 520px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-list-box .price-list-box-title {
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color);
+    margin-top: 20px;
+}
+
+.price-list-box .price-list-box-price {
+    display: flex;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 2px solid #D4D4D4;
+    background: #FFF;
+    margin: 35px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price-list-box .price-cnt {
+    display: flex;
+    color: #C2C2C2;
+}
+
+.price-list-box .price-cnt .price {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.price-list-box .price-cnt .small {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.price-list-box .price-text {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #C2C2C2;
+}
+
+.price-list-box .price-list-box-points {
+}
+
+.price-list-box .price-list-box-points li {
+    background: #E4E4E4;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+    color: #8F8F8F;
+}
+
+.price-list-box .price-list-box-points li:nth-of-type(even) {
+    background: #F1F1F1;
+}
+
+.price-list-box .price-list-box-btn-cnt {
+    font-size: 16px;
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price-list-box .button {
+    font-size: 16px;
+    padding: 4px 25px;
+    margin-top: auto;
+}
+
+/* active */
+.price-list-box--active {
+    background: var(--color);
+    border-color: var(--color);
+}
+
+.price-list-box--active .price-list-box-title {
+    color: #FFF;
+}
+
+.price-list-box--active .price-list-box-price {
+    border-color: var(--color);
+}
+
+.price-list-box--active .price-cnt .price,
+.price-list-box--active .price-cnt .small,
+.price-list-box--active .price-text {
+    color: var(--color)
+}
+
+.price-list-box--active .btn {
+    background: #FFF;
+    color: var(--color);
+    transition:0.5s all;
+}
+.price-list-box--active .btn:hover {
+    opacity:0.7;
+}
